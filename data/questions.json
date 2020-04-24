@@ -1,11 +1,76 @@
-[{
-  "key": 1001,
+{
+"users":[
+{
+  "id":"1001",
+  "name":"xxx",
+  "nickname":"xxx",
+  
+}
+],
+"problems":[
+{
+  "key": "1001",
   "description": "将下列命题符号化：",
-  "problems": {
+  "questions": {
     "1": "吴颖既用功又聪明.",
     "2": "吴颖不仅用功而且聪明.",
-    "3": "吴颖虽然聪明，但不用功."
+    "3": "吴颖虽然聪明,但不用功.",
+    "4": "张辉与王丽都是三好生.",
+    "5": "张辉与王丽是同学."
   },
   "choices": {},
-  "answer": {}
-}]
+  "answers": {},
+  "chapterId":"1-1"
+  "theoryId":["1-1","1-2"]
+}
+],
+"theories":[
+{
+"id":"1-1",
+"text":""	
+}
+],
+"chapters":[
+{
+"id":"1"
+"text":"集合论"
+},
+{
+"id":"2"
+"text":"二元关系"
+}
+],
+"subchapters":[
+{
+"id":"1.1"
+"text":"内容分析",
+"chapterId":"1"
+},
+{
+"id":"1.2"
+"text":"重点及难点分析",
+"chapterId":"1"
+}
+],
+"subsubchapters":[
+{
+"id":"1.1.1"
+"text":"集合的基本概念",
+"subchapterId":"1.1"
+},
+{
+"id":"1.1.2"
+"text":"子集、集合的相等",
+"subchapterId":"1.1"
+},
+],
+"answersheets":[
+"id":"1001",
+"text":"ccccccccc",
+"userId":"1001",
+],
+"answers":[
+{"id":"101","text","123","answersheetId":"1001"},
+{"id":"102","text","234","answersheetId":"1001"},
+]
+}
